@@ -7,11 +7,11 @@ import android.view.View;
  * Created by liqi on 2017/5/22.
  */
 
-public abstract class TypeAbstractViewHolder extends RecyclerView.ViewHolder {
+public abstract class TypeAbstractViewHolder<T> extends RecyclerView.ViewHolder {
 
     public TypeAbstractViewHolder(View itemView) {
         super(itemView);
     }
 
-    public abstract void bindHolder(DataModel model);
+    public abstract void bindHolder(T model);
 }

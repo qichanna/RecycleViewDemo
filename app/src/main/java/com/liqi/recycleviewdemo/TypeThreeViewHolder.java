@@ -8,7 +8,7 @@ import android.widget.TextView;
  * Created by liqi on 2017/5/22.
  */
 
-public class TypeThreeViewHolder extends TypeAbstractViewHolder {
+public class TypeThreeViewHolder extends TypeAbstractViewHolder<DataModel> {
     public ImageView imageView;
     public TextView textView;
 
